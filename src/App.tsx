@@ -48,7 +48,7 @@ function App() {
         <h2>What People Say</h2>
         <blockquote>
           "Volunteering here changed my life. I found purpose and made real impact."
-          <footer>- Harshika, Volunteer</footer>
+          <footer>- Harshika Reddy, Volunteer</footer>
         </blockquote>
         <blockquote>
           "Thanks to the foundation, my daughter now attends school regularly."
