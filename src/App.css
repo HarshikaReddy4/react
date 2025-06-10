@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f9f7;
+  color: #2f4f4f;
+}
+
+.ngo-landing {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+}
+
+.cta-button {
+  background: white;
+  color: #185a9d;
+  border: none;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6f0ff;
+}
+
+.about, .impact, .programs, .volunteer, .testimonials {
+  margin: 3rem auto;
+  max-width: 800px;
+}
+
+.program-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #e6f9f1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.volunteer form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.volunteer input {
+  padding: 0.8rem;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.volunteer button {
+  background-color: #43cea2;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.volunteer button:hover {
+  background-color: #185a9d;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  background-color: #dff5f0;
+  margin: 1.5rem auto;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #43cea2;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+}
