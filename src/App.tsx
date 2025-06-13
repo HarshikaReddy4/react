@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-import './App.css';
-=======
 import "./App.css";
 import { useState } from "react";
 import { db } from "./firebase"; // ✅ Firebase config
 import { collection, addDoc } from "firebase/firestore"; // ✅ Firestore functions
->>>>>>> a31e70a (Added Firestore functionality)
 
 function App() {
   const [name, setName] = useState("");
@@ -92,14 +88,9 @@ function App() {
       <section className="testimonials">
         <h2>What People Say</h2>
         <blockquote>
-<<<<<<< HEAD
-          "Volunteering here changed my life. I found purpose and made real impact."
-          <footer>- Harshika Reddy, Volunteer</footer>
-=======
           "Volunteering here changed my life. I found purpose and made real
           impact."
-          <footer>- Harshika, Volunteer</footer>
->>>>>>> a31e70a (Added Firestore functionality)
+          <footer>- Harshika Reddy, Volunteer</footer>
         </blockquote>
         <blockquote>
           "Thanks to the foundation, my daughter now attends school regularly."
